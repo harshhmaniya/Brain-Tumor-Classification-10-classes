@@ -20,7 +20,7 @@ This project leverages deep learning techniques to classify brain tumors into fo
 
 ## Features
 1. **Deep Learning Model for Classification**:
-   - Detects four classes of brain tumors:
+   - Detects ten classes of brain tumors:
      - *Astrocitoma*
      - *Carcinoma*
      - *Ependimoma*
