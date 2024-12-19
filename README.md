@@ -1,7 +1,5 @@
 # Brain-Tumor-Classification-10-classes
 
-# Brain Tumor Detection with Deep Learning
-
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -23,10 +21,16 @@ This project leverages deep learning techniques to classify brain tumors into fo
 ## Features
 1. **Deep Learning Model for Classification**:
    - Detects four classes of brain tumors:
-     - *Glioma*: A tumor occurring in the brain and spinal cord.
-     - *Meningioma*: A tumor on the membranes covering the brain and spinal cord.
-     - *Pituitary Tumor*: A growth in the pituitary gland.
-     - *No Tumor*: Indicates no tumor is present.
+     - *Astrocitoma*
+     - *Carcinoma*
+     - *Ependimoma*
+     - *Papilloma*
+     - *Schwannoma*
+     - *Tuberculoma*
+     - *Glioma*
+     - *Meningioma*
+     - *No Tumor*
+     - *Pituitary*
 
 2. **User-Friendly Front-End Interface**:
    - Enables users to upload MRI images easily.
@@ -49,12 +53,12 @@ This project leverages deep learning techniques to classify brain tumors into fo
    - OpenCV for image processing and pre-processing.
 
 2. **Front-End**:
-   - Streamlit or React.js for a user-friendly interface.
+   - Streamlit for a user-friendly interface.
    - Displays results and handles user interactions.
 
 3. **Backend**:
-   - Python-based backend with Flask or Django for handling predictions.
-
+   - Python-based backend
+   
 4. **Other Tools**:
    - NumPy and Pandas for data manipulation.
    - Matplotlib and Seaborn for visualizations and insights.
@@ -62,25 +66,31 @@ This project leverages deep learning techniques to classify brain tumors into fo
 ---
 
 ## Dataset Details
-- The dataset consists of MRI images, categorized into the following four classes:
-  - `glioma`
-  - `meningioma`
-  - `pituitary`
-  - `no tumor`
+- The dataset consists of MRI images, categorized into the following ten classes:
+  - `Astrocitoma`
+  - `Carcinoma`
+  - `Ependimoma`
+  - `Papilloma`
+  - `Schwannoma`
+  - `Tuberculoma`
+  - `Glioma`
+  - `Meningioma`
+  - `No Tumor`
+  - `Pituitary`
 
 - **Training and Testing Split**:
   - Training set: Contains labeled images for model training.
   - Testing set: Used to evaluate the model's performance.
 
 - **Pre-processing Steps**:
-  - Resizing images to a uniform size (e.g., 224x224 pixels).
+  - Resizing images to a uniform size (e.g., 299x299 pixels).
   - Normalizing pixel values for better model training.
 
 ---
 
 ## Model Architecture
 1. **Base Architecture**:
-   - A Convolutional Neural Network (CNN) model.
+   - A Convolutional Neural Network (CNN) model and Xception model.
    - Includes convolution, pooling, and dense layers.
 
 2. **Additional Techniques**:
