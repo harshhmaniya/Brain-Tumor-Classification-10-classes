@@ -14,7 +14,7 @@
 ---
 
 ## Overview
-This project leverages deep learning techniques to classify brain tumors into four categories: **glioma**, **meningioma**, **pituitary tumor**, and **no tumor**. The solution includes a user-friendly front-end interface, designed to make the tool accessible and efficient for medical professionals and researchers. The primary goal is to facilitate accurate and rapid brain tumor detection from MRI images.
+This project leverages deep learning techniques to classify brain tumors into ten categories. The solution includes a user-friendly front-end interface, designed to make the tool accessible and efficient for medical professionals and researchers. The primary goal is to facilitate accurate and rapid brain tumor detection from MRI images.
 
 ---
 
